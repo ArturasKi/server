@@ -31,3 +31,19 @@ export { app };
 //  "description": "",
 // "type": "module", - prirašome package.json'e, kad būtų galima naudoti modernią sintaksę export { app };
 // "main": "index.js",
+
+// serveris:
+// - pages/routes
+// nukreipimas į kažkokį puslapį;
+// kelias (url:get) -> funkcija, kuri grąžina puslapio HTML (URL -> HTML);
+// url map'inasi į funckiją;
+
+// - static files
+// - api
+// - cors
+// - db (mysql/Maria)
+// - file upload
+
+// settings:
+// - port
+// - aplinkos: dev, test, prod
